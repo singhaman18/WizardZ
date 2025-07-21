@@ -321,7 +321,71 @@ nav button {
   margin: 0;
 }
 
-footer {
-  height: 30%;
+.section6 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.section6 .footer {
+  position: relative;
   width: 100%;
+  min-height: 100px;
+  background-color: rgba(39, 36, 36, 0.664);
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.footer .social-icons,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.footer .social-icons li,
+.menu li {
+  list-style: none;
+}
+
+.footer .social-icons li a {
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.footer .social-icons li a:hover {
+  transform: translateY(-10px);
+}
+
+.footer .menu li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  margin: 0 10px;
+  display: inline-block;
+  opacity: 0.75;
+}
+
+.footer .menu li a:hover {
+  opacity: 1;
+}
+
+.section6 .footer p {
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  font-size: 1.1em;
 }
